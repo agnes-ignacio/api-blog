@@ -12,9 +12,9 @@ Olá, esta é uma API de um blog simples para treinar os conceitos de CRUD, orie
 Esta aplicação tem como foco principal a manutenção de um blog de imagens e textos. Nela é possível:
 <table>
 <tr>
-  <td>## Verbo</td>
-  <td>## Rota</td>
-  <td>## Função</td>
+  <td>Verbo</td>
+  <td>Rota</td>
+  <td>Função</td>
 </tr>
 <tr>
   <td>get</td>
