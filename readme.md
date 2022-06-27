@@ -1,19 +1,21 @@
-#Introdução
+# Introdução
 
 ![mão na massa!](https://media.giphy.com/media/uhoXlkw3svvgm94LQS/giphy.gif)
 
 Olá, esta é uma API de um blog simples para treinar os conceitos de CRUD, orientação a objetos, arquitetura MVC, banco de dados e autentificação. Ela é resultado dos meus aprendizados até o momento no curso de Backend da {Reprograma};
 
 
-#Rotas
+# Rotas
 
 ![vamos ao mapa?](https://media.giphy.com/media/xUySTOigOUHucl3rfW/giphy.gif)
 
 Esta aplicação tem como foco principal a manutenção de um blog de imagens e textos. Nela é possível:
+<table>
 <tr>
   <td>get</td>
   <tr>"/colaboradoras"</td>
 </tr>
+</table>
 - get > "/colaboradoras" > acessar todos os usuários do blog
 - get > "/colaboradoras/login" > acessar usuários do blog por id
 - get > "/posts" > acessar todos as postagens do blog
@@ -31,7 +33,8 @@ Esta aplicação tem como foco principal a manutenção de um blog de imagens e 
 - delete > "/colaboradoras/:id" > excluir usuário no blog por id
 - delete > "/post/:id" > deletar postagem no blog por id
 
-#Dependências
+
+# Dependências
 
 ![depende, né?](https://media.giphy.com/media/4SLTGHrFJAvXGHHRLj/giphy-downsized-large.gif)
 
