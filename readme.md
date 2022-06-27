@@ -13,7 +13,7 @@ Esta aplicação tem como foco principal a manutenção de um blog de imagens e 
 <table>
 <tr>
   <td>get</td>
-  <tr>"/colaboradoras"</td>
+  <td>"/colaboradoras"</td>
 </tr>
 </table>
 - get > "/colaboradoras" > acessar todos os usuários do blog
