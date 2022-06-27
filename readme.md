@@ -12,26 +12,77 @@ Olá, esta é uma API de um blog simples para treinar os conceitos de CRUD, orie
 Esta aplicação tem como foco principal a manutenção de um blog de imagens e textos. Nela é possível:
 <table>
 <tr>
+  <td>## Verbo</td>
+  <td>## Rota</td>
+  <td>## Função</td>
+</tr>
+<tr>
   <td>get</td>
   <td>"/colaboradoras"</td>
+  <td>acessar todos os usuários do blog</td>
 </tr>
+ <tr>
+   <td>get</td>
+   <td>"/colaboradoras/login"</td>
+   <td>acessar usuários do blog por id</td>
+  </tr>
+  <tr>
+    <td>get</td>
+    <td>"/posts"</td>
+   <td>acessar todos as postagens do blog</td>
+  </tr>
+  <tr>
+    <td>get</td>
+    <td>"/post/:id"</td>
+   <td>acessar as postagens do blog por id</td>
+  </tr>
+  <tr>
+    <td>get</td>
+    <td>"/posts/category"</td>
+   <td>acessar as postagens do blog por categoria</td>
+  </tr>
+  <tr>
+    <td>post</td>
+    <td>"/colaboradoras"</td>
+   <td>criar um novo usuário do blog</td>
+  </tr>
+  <tr>
+    <td>post</td>
+    <td>"/posts"</td>
+   <td>criar nova postagem no blog</td>
+  </tr>
+  <tr>
+    <td>post</td>
+    <td>"/colaboradoras/login"</td>
+   <td>efetuar login no blog</td>
+  </tr>
+  <tr>
+    <td>patch</td>
+    <td>"/post/:id"</td>
+   <td>editar postagem no blog por id</td>
+  </tr>
+  <tr>
+    <td>patch</td>
+    <td>"/post/like/:id"</td>
+   <td>curtir/descurtir postagem no blog</td>
+  </tr>
+  <tr>
+    <td>patch</td>
+    <td>"/post/archive/:id"</td>
+   <td>arquivar/desarquivar postagem no blog</td>
+  </tr>
+  <tr>
+    <td>delete</td>
+    <td>"/colaboradoras/:id"</td>
+   <td>excluir usuário no blog por id</td>
+  </tr>
+  
+  <tr>
+    <td>delete</td>
+    <td>"/post/:id"</td>
+   <td>deletar postagem no blog por id</td>
+  </tr>        
 </table>
-- get > "/colaboradoras" > acessar todos os usuários do blog
-- get > "/colaboradoras/login" > acessar usuários do blog por id
-- get > "/posts" > acessar todos as postagens do blog
-- get > "/post/:id" > acessar as postagens do blog por id
-- get > "/posts/category" > acessar as postagens do blog por categoria
-
-- post > "/colaboradoras" > criar um novo usuário do blog
-- post > "/posts" > criar nova postagem no blog
-- post > "/colaboradoras/login" > efetuar login no blog
-
-- patch > "/post/:id" > editar postagem no blog por id
-- patch > "/post/like/:id" > curtir/descurtir postagem no blog
-- patch > "/post/archive/:id" > arquivar/desarquivar postagem no blog
-
-- delete > "/colaboradoras/:id" > excluir usuário no blog por id
-- delete > "/post/:id" > deletar postagem no blog por id
 
 
 # Dependências
