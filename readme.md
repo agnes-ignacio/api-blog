@@ -106,4 +106,4 @@ Neste projeto, as seguintes dependências são utilizadas:
 
 ![depende, né?](https://media.giphy.com/media/gHcPh3ehbRGik/giphy.gif)
 
-Para qualquer dúvida, sugestão, elogio ou crítica, entre em contato pelo [LinkedIn]([http://example.com/](https://www.linkedin.com/in/agnes-ign%C3%A1cio-a07762125/) "LinkedIn") :3
+Para qualquer dúvida, sugestão, elogio ou crítica, entre em contato pelo [LinkedIn](https://www.linkedin.com/in/agnes-ign%C3%A1cio-a07762125/ "LinkedIn") :3
