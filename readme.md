@@ -5,6 +5,7 @@
 Olá, esta é uma API de um blog simples para treinar os conceitos de CRUD, orientação a objetos, arquitetura MVC, banco de dados e autentificação. Ela é resultado dos meus aprendizados até o momento no curso de Backend da {Reprograma};
 
 
+
 # Rotas
 
 ![vamos ao mapa?](https://media.giphy.com/media/xUySTOigOUHucl3rfW/giphy.gif)
@@ -85,6 +86,7 @@ Esta aplicação tem como foco principal a manutenção de um blog de imagens e 
 </table>
 
 
+
 # Dependências
 
 ![depende, né?](https://media.giphy.com/media/4SLTGHrFJAvXGHHRLj/giphy-downsized-large.gif)
@@ -97,3 +99,11 @@ Neste projeto, as seguintes dependências são utilizadas:
 - bcrypt
 - dotenv-safe
 - jsonwebtoken
+
+
+
+# Contato
+
+![depende, né?](https://media.giphy.com/media/gHcPh3ehbRGik/giphy.gif)
+
+Para qualquer dúvida, sugestão, elogio ou crítica, entre em contato pelo [LinkedIn]([http://example.com/](https://www.linkedin.com/in/agnes-ign%C3%A1cio-a07762125/) "LinkedIn") :3
